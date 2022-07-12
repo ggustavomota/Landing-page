@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.blocosnav{
+    box-sizing: border-box;
+    margin-right: 60px;
+    margin-left: 20px;
+    float: right;
+    font-family: Nanum Gothic;
+    padding: 0px;
+    margin-top: 20px;
+    background-color: transparent;
+    z-index: 3;
+    position: relative;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#blocoprincipal{
+    background-color: white;
+    box-sizing: border-box;
+    width: 950px;
+    height: 675px;
+    z-index: 1;    
+}
+#blocoprincipal2{
+    background: linear-gradient(to right, rgb(238, 0, 111), rgb(36, 0, 136));
+    width: 1275px;
+    height: 694px;
+    margin-right: -400px;
+    float: right;
+    margin-top: -423px;
+    z-index: 2;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 350px;
+    border-radius: 750px/900px;
+    overflow: hidden;
+}
+
+button{
+    background: linear-gradient(to right, rgb(238, 0, 111), rgb(75, 0, 136));
+    width: 220px;
+    height: 75px;
+    margin-left: 170px;
+    margin-top: 410px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: -7px 22px 40px rgba(156, 156, 156, 0.719);
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    font-family: Roboto;
+    color: rgb(82, 82, 82);
+    font-size: 56px;
+    margin-left: 120px;
+    margin-top: 100px;
+    position: fixed;
+    font-weight: bold;
+}
+
+h1 p{
+    margin-top: 0px;
+}
+
+nav{
+    margin-top: -185px;
+}
+#subtitles{
+    margin-left: 120px;
+    margin-top: -360px;
+    color: rgb(177, 177, 177);
+    font-family: Nanum Gothic;
+}
+
+#subtitles1{
+    margin-left: 120px;
+    margin-top: -15px;
+    color: rgb(177, 177, 177);
+    font-family: Nanum Gothic;
+}
+
+#imgbloco{
+    height: 640px;
+    width: 760px;
+    margin-left: 105px;
+    margin-top: 35px;
+}
+
+#sss{
+    margin-left: 120px;
+    margin-top: 230px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(238, 0, 111), rgb(75, 0, 136));
+    width: 60px;
+    height: 60px;
+    border-radius: 25px 40px 25px 40px;
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+}
+#title{
+    margin-top: -45px;
+    margin-left: 195px;
+    font-size: 36px;
+    font-family: Nanum Gothic;
+    font-weight: lighter;
+}
+button:hover{
+    width: 218px;
+    height: 73px;
+    font-size: 17.5px;
+}
